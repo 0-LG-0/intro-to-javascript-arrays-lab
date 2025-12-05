@@ -81,8 +81,7 @@ Exercise 6: Replace elements
 Complete Exercise 6 in the space below:
 */
 
-
-foods.splice(1,1,'sushi', 'cupcake')
+foods.splice(foods.indexOf('pizza'), 1, 'sushi', 'cupcake')
 console.log('Exercise 6 result:', foods);
 
 //-------------------------------------------------------------------
@@ -260,7 +259,7 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
-num = numArrays [2] [1];
+const num = numArrays [2] [1];
 
 console.log('Exercise 14 result:', num);
 
